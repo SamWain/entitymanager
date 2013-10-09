@@ -136,9 +136,7 @@ public abstract class Utility {
 		if ((damage & 0x4000) > 0) {
 			potion = potion.splash();
 		}
-		if ((damage & 0x40) > 0) {
-			potion = potion.extend();
-		}
+		
 		return potion;
 	}
 }
